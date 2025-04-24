@@ -1,14 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>mXai Tabbhai</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>mXai Tabhai - Level Up</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+      color: #fff;
+      line-height: 1.6;
+    }
+
+    header {
+      padding: 2rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      color: #00ffe0;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+    }
+
+    section {
+      padding: 3rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .tools, .testimonials, .cta {
+      margin-top: 3rem;
+    }
+
+    .tools-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+
+    .tool {
+      background: #1c1c2e;
+      padding: 1rem;
+      border-radius: 1rem;
+      text-align: center;
+      box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    }
+
+    .tool i {
+      font-size: 2rem;
+      color: #00ffe0;
+    }
+
+    .cta button {
+      background: #00ffe0;
+      color: #000;
+      border: none;
+      padding: 1rem 2rem;
+      font-size: 1.2rem;
+      border-radius: 2rem;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .cta button:hover {
+      background: #fff;
+      color: #000;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+
+      .cta button {
+        width: 100%;
+      }
+    }
+  </style>
 </head>
 <body>
-  <div class="hero">
-    <h1>Welcome to mXai Tabbhai 👑</h1>
+  <header>
+    <h1>Welcome to mXai Tabhai 👑</h1>
     <p>Empowering creators from zero to hero using free AI-powered tools.</p>
-  </div>
+  </header>
+
+  <section class="tools">
+    <h2>🔥 Top AI Tools We Love</h2>
+    <div class="tools-grid">
+      <div class="tool"><i class="fas fa-magic"></i><p>AI Thumbnail Maker</p></div>
+      <div class="tool"><i class="fas fa-video"></i><p>Auto-Video Generator</p></div>
+      <div class="tool"><i class="fas fa-bolt"></i><p>Caption Creator</p></div>
+      <div class="tool"><i class="fas fa-robot"></i><p>Workflow Automation</p></div>
+      <div class="tool"><i class="fas fa-chart-line"></i><p>Growth Tracker</p></div>
+    </div>
+  </section>
+
+  <section class="testimonials">
+    <h2>📜 1000+ Creators Impacted</h2>
+    <p>“Thanks to mXai Tabhai, I launched my own YouTube channel with 0 budget!” - A Creator</p>
+  </section>
+
+  <section class="cta">
+    <h2>🚀 Ready to Join the Revolution?</h2>
+    <button onclick="window.location.href='https://mailchi.mp'">Join Free</button>
+  </section>
 </body>
 </html>
