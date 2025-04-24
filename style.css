@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #111;
+  color: #fff;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero {
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #00ffd5;
+}
+
+p {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
