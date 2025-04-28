@@ -2,141 +2,59 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>mXai Tabhai - No Budget? No Excuses. Just Creation.</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Poppins', sans-serif;
-      background: #0a0f24;
-      color: white;
-      overflow-x: hidden;
-    }
-    header {
-      text-align: center;
-      padding: 100px 20px 50px;
-      background: linear-gradient(180deg, #0a0f24 0%, #0e1740 100%);
-      position: relative;
-    }
-    header h1 {
-      font-size: 3rem;
-      background: linear-gradient(90deg, #00ffe1, #0051ff);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      font-weight: 800;
-    }
-    header p {
-      font-size: 1.2rem;
-      margin-top: 20px;
-      color: #c9c9c9;
-    }
-    .cta-btn {
-      margin-top: 30px;
-      background: #00ffe1;
-      color: #0a0f24;
-      padding: 15px 30px;
-      font-size: 1.2rem;
-      border: none;
-      border-radius: 50px;
-      cursor: pointer;
-      font-weight: 600;
-      transition: 0.3s;
-    }
-    .cta-btn:hover {
-      background: #0051ff;
-      color: white;
-    }
-    section {
-      padding: 80px 20px;
-      text-align: center;
-      max-width: 1200px;
-      margin: auto;
-    }
-    section h2 {
-      font-size: 2.5rem;
-      margin-bottom: 30px;
-      background: linear-gradient(90deg, #00ffe1, #0051ff);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-    }
-    section p {
-      font-size: 1rem;
-      color: #b0b0b0;
-      max-width: 800px;
-      margin: 0 auto 50px;
-    }
-    footer {
-      padding: 20px;
-      background: #060918;
-      font-size: 0.8rem;
-      text-align: center;
-      color: #888;
-    }
-    .particles {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      z-index: 0;
-      background: url('https://cdn.pixabay.com/photo/2022/03/19/12/43/background-7079447_1280.png') repeat;
-      opacity: 0.05;
-      background-size: cover;
-      animation: moveParticles 30s linear infinite;
-    }
-    @keyframes moveParticles {
-      from {background-position: 0 0;}
-      to {background-position: 1000px 1000px;}
-    }
-    .content {
-      position: relative;
-      z-index: 2;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/5968/5968705.png">
+  <meta name="description" content="Helping 1 Lakh Creators go from 0 to Pro using AI, without limits. Join Free.">
+  <meta property="og:title" content="mXai Tabhai - No Budget? No Excuses. Just Creation.">
+  <meta property="og:description" content="Helping 1 Lakh Creators go from 0 to Pro using AI, without limits.">
+  <meta property="og:image" content="https://yourdomain.com/cover.png">
 </head>
 <body>
 
-<div class="particles"></div>
-<div class="content">
-  <header>
-    <h1>No Budget? No Excuses. Just Creation.</h1>
+<div id="particles-js"></div>
+
+<header class="hero">
+  <div class="content">
+    <h1>No Budget? No Excuses.<br>Just Creation.</h1>
     <p>Helping 1 Lakh Creators Go from 0 to Pro. Without Budget. Without Limits.</p>
-    <button class="cta-btn" onclick="window.location.href='#join'">Join mXai Free</button>
-  </header>
+    <a href="#join" class="cta-btn">Join mXai Free</a>
+  </div>
+</header>
 
-  <section id="mission">
-    <h2>Our Mission</h2>
-    <p>To remove every barrier for new creators. We provide the best free AI tools, platforms, and roadmaps — so you can focus only on creating, not struggling.</p>
-  </section>
+<section class="features" id="mission">
+  <h2>Our Mission</h2>
+  <p>Removing barriers for new creators. Providing the best free AI tools, platforms, and roadmaps so you can focus only on creating, not struggling.</p>
+</section>
 
-  <section id="whatyouget">
-    <h2>What You Get</h2>
-    <p>✔️ Free AI-powered tools<br>
-       ✔️ Best apps and websites<br>
-       ✔️ Beginner to Pro Creator Roadmap<br>
-       ✔️ No Technical Skills Required<br>
-       ✔️ Community and Support System
-    </p>
-  </section>
+<section class="features" id="whatyouget">
+  <h2>What You Get</h2>
+  <ul>
+    <li>✔️ Free AI-powered tools</li>
+    <li>✔️ Best apps and websites</li>
+    <li>✔️ Beginner to Pro Creator Roadmap</li>
+    <li>✔️ No Technical Skills Required</li>
+    <li>✔️ Community and Support System</li>
+  </ul>
+</section>
 
-  <section id="trust">
-    <h2>Why Trust mXai Tabhai?</h2>
-    <p>Created by real creators who have struggled, learned, and now want to simplify everything for the next 1 lakh creators. Pure value, pure mission.</p>
-  </section>
+<section class="features" id="trust">
+  <h2>Why Trust mXai Tabhai?</h2>
+  <p>Created by real creators who struggled, learned, and now simplify everything for the next 1 lakh creators. Pure value, pure mission.</p>
+</section>
 
-  <section id="join">
-    <h2>Start Your Creator Journey Now</h2>
-    <button class="cta-btn" onclick="window.location.href='https://your-google-login-link.com'">Login with Google</button>
-  </section>
-
-</div>
+<section class="join" id="join">
+  <h2>Start Your Creator Journey</h2>
+  <a href="https://your-google-login-link.com" class="cta-btn">Login with Google</a>
+</section>
 
 <footer>
   &copy; 2025 mXai Tabhai. All rights reserved.
 </footer>
 
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<script src="script.js"></script>
+
 </body>
 </html>
-
-
