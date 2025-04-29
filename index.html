@@ -1,60 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>mXai Tabhai - Empower Your Content Creation</title>
-  <link rel="stylesheet" href="style.css">
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>mXai by Mahtab</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #0d1117;
+      --accent: #00ffe0;
+      --text: #ffffff;
+      --secondary: #161b22;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: var(--primary);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    header {
+      background: var(--secondary);
+      padding: 2rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      color: var(--accent);
+    }
+
+    .hero {
+      text-align: center;
+      padding: 5rem 2rem;
+    }
+
+    .hero p {
+      font-size: 1.3rem;
+      margin-top: 1rem;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+      opacity: 0.9;
+    }
+
+    .btn {
+      margin-top: 2rem;
+      padding: 1rem 2rem;
+      background: var(--accent);
+      color: #000;
+      border: none;
+      border-radius: 8px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .btn:hover {
+      transform: scale(1.05);
+      background: #00e6c3;
+    }
+
+    section {
+      padding: 4rem 2rem;
+      max-width: 960px;
+      margin: auto;
+    }
+
+    section h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: var(--accent);
+    }
+
+    section p {
+      opacity: 0.85;
+      font-size: 1.1rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background: var(--secondary);
+      font-size: 0.9rem;
+      opacity: 0.6;
+    }
+  </style>
 </head>
 <body>
+  <header>
+    <h1>mXai Tabhai 🚀</h1>
+  </header>
 
-  <!-- Hero Section -->
-  <section class="hero" id="hero">
-    <div class="container" data-aos="fade-up">
-      <h1>Join mXai for Free</h1>
-      <p>No Budget? No Excuses. Just Creation.</p>
-      <a href="https://docs.google.com/forms/d/e/1FAIpQLSde8lQ34h-sdd9is755joNr8twwFJ2Ys71nL1vZwkJ0gZN2Kw/viewform?usp=sf_link" class="btn">Get Started</a>
-    </div>
+  <div class="hero">
+    <h2>No Budget? No Excuses. Just Creation.</h2>
+    <p>Helping creators become PROs faster, easier, and smarter using 100% free AI-powered workflows & resources.</p>
+    <a href="#join"><button class="btn">Join mXai Free</button></a>
+  </div>
+
+  <section>
+    <h2>Why mXai?</h2>
+    <p>
+      We know the struggle of beginners—confusing tools, scattered resources, and endless trial and error.
+      That’s why we built mXai: to give you everything in one place.
+    </p>
   </section>
 
-  <!-- About Section -->
-  <section class="about" id="about">
-    <div class="container" data-aos="fade-up">
-      <h2>Why mXai?</h2>
-      <p>Creating content shouldn't cost you years. We've collected the best free tools, resources, and mentorship to fast-track your creator journey.</p>
-    </div>
+  <section>
+    <h2>What You'll Get</h2>
+    <p>
+      🔹 AI Tools Hub<br>
+      🔹 Creator Dashboard<br>
+      🔹 Monetization Roadmaps<br>
+      🔹 Free Video Templates<br>
+      🔹 Creator Growth Guide
+    </p>
   </section>
 
-  <!-- Features Section -->
-  <section class="features" id="features">
-    <div class="container" data-aos="fade-up">
-      <h2>What You Get</h2>
-      <ul>
-        <li>🚀 Free AI Tools Hub</li>
-        <li>🎯 Guided Creator Roadmaps</li>
-        <li>🔥 Zero to Pro Support</li>
-        <li>🎬 Monetization Readiness</li>
-      </ul>
-    </div>
+  <section id="join">
+    <h2>Join the Mission</h2>
+    <p>
+      Our goal: Help 1 lakh creators by 2026, no investment needed. Just your hustle + our tools.
+    </p>
+    <a href="https://forms.gle/some-form-link" target="_blank"><button class="btn">Get Early Access</button></a>
   </section>
 
-  <!-- Call to Action -->
-  <section class="cta" id="cta">
-    <div class="container" data-aos="fade-up">
-      <h2>Ready to Level Up?</h2>
-      <a href="https://docs.google.com/forms/d/e/1FAIpQLSde8lQ34h-sdd9is755joNr8twwFJ2Ys71nL1vZwkJ0gZN2Kw/viewform?usp=sf_link" class="btn">Join mXai Now</a>
-    </div>
-  </section>
-
-  <!-- Footer -->
   <footer>
-    <p>© 2025 mXai Tabhai. Empowering 1 Lakh+ Creators.</p>
+    Built with ❤️ by Mahtab & ChatGPT — mXai Tabhai™ 2025
   </footer>
-
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
 </body>
 </html>
